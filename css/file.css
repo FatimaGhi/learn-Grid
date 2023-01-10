@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Work Sans', sans-serif;
+}
+.parent{
+    padding-top: 5%;
+    width: 1220px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+ display: grid;
+ grid-template-columns: repeat(3,fr);
+ grid-template-rows: fr repeat(3,fr);
+ gap: 15px 15px;
+}
+.menu{
+    grid-column-start: 2;
+    grid-column-end:4 ;
+}
+.image{
+    grid-column: 1;
+    grid-column-end: 3;
+}
+.image >img{
+    width: 100%;
+}
+.NEw{
+    grid-column-start: 3;
+    grid-row-start: 2;
+    grid-row-end: 4; 
+    /* grid-row: 2 \ 4; */
+    background-color:rgb(19, 4, 37) ;
+    color: #fff;
+    padding: 10%;
+    display: grid;
+    grid-template-rows: repeat(4,fr);
+    grid-template-columns: 100%;
+}
+.text1{
+    grid-column-start:1 ;
+    grid-row-start:3 ;
+    font-size: 30px; 
+}
+h1{
+   color: rgb(19, 4, 37); 
+}
+h3{
+    color: #fff;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+h2{
+    color: goldenrod;
+    padding-bottom: 5px;
+    font-size: 35px;
+}
+.pNew{
+    color: gray;
+    padding-bottom:20px ;
+    border-bottom: 1px solid gray;
+    
+}
+.textandbutton{
+    grid-column-start:2 ;
+    grid-row-start:3 ;
+}
+.box_1{
+    grid-column-start:1 ;
+    grid-row-start:4 ;
+}
+.box_2{
+    grid-column-start:2 ;
+    grid-row-start:4 ;
+}
+.box_3{
+    grid-column-start:3 ;
+    grid-row-start:4;
+    
+}
+.box_1,.box_2,.box_3{
+    display: grid;
+    grid-template-columns: repeat(2,auto); 
+    grid-template-rows: 100px;
+    gap: 10px 10px;
+}
+p{
+    color: gray;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    color: gray;
+}
+button{
+    margin-top: 50px;
+    color: #fff;
+    background-color: rgb(19, 4, 37);
+    padding: 10px;
+    width: 200px;
+}
+.img_box{
+ height: 100%;
+}
+.num{
+    color: gray;
+}
+h4{
+    columns: #000;
+}
